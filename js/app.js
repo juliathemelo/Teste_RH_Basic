@@ -23,3 +23,24 @@ card.addEventListener("mousemove", (e) => {
     card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
 })
 
+//Slider Person
+
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+});
+
+//Função personagem 
+
+function Carlos(){
+    const carlos = "Carlos"
+    const local = window.document.getElementById("escolha").innerHTML = `Personagem Selecionado: ${carlos}`
+    window.alert(`${carlos} - Foi Selecionado, Prossiga as etapas`)
+    
+}
+

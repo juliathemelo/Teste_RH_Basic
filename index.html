@@ -7,6 +7,7 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="estilo/home.css">
+        <link rel="stylesheet" href="estilo/personagem.css">
     </head>
     <body>
         <!--NavBar-->
@@ -42,11 +43,48 @@
                     <p class="home__title" id="ola">Olá,</p>
                     <p class="home__title">Escreva Uma História...</p>
                     <p class="home__description">Teste De Avaliação Psicologica</p>
-                <button class="home__button"> Vamos Começar</button>
-                </div>
-                
+                <button class="home__button" href="#inicio"> Vamos Começar</button>
+                </div> 
             </div> 
-        </section>    
+        </section>
+        <!--Seleção de Personagem-->
+        <section class="selecao" id="inicio">
+            <h1 class="title_1"> Selecione O Personagem:</h1>
+            <h2 id="escolha">Personagem Selecionado: Nenhum</h2>
+           <div class="container">
+                
+                <div class="card">
+                    <div class="circle">
+                        <h2>Carlos</h2>
+                        
+                    </div>
+                    <div class="content">
+                        <img src="pixels/carlos.png" class="img">
+                        <button class="btn" onclick="Carlos()">Escolho O Carlos</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h2>Pedro</h2>
+                    </div>
+                    <div class="content">
+                        <img src="pixels/pedro.png" class="img">
+                        <button class="btn">Escolho O Pedro</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="circle">
+                        <h2>Thomas</h2>
+                    </div>
+                    <div class="content">
+                        <img src="pixels/thomas2.png" class="img">
+                        <button class="btn">Escolho O Thomas</button>
+                    </div>
+                </div>
+           </div>         
+        </section>
+        <script src="js/JQuery3.3.1.js"></script>
+        <script src="js/lightslider.js"></script>    
         <script src="js/app.js"></script>
     </body>
 </html>

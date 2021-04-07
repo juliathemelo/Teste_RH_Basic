@@ -22,8 +22,8 @@ body{
     margin: var(--header-height) 0 0 0;
     padding: 0;
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    
+    font-size: var(--normal-font-size);  
+   
 }
 
 h1,p,u{
@@ -186,6 +186,7 @@ a{
     background-color: black;
     transition: 0.5s;
     color: white;
+    cursor: pointer;
 }
 
 @media screen and (min-width:768px) {
@@ -241,3 +242,4 @@ a{
     color: white;
  
 }
+

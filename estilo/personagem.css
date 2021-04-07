@@ -1,0 +1,125 @@
+.selecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 1080px;
+    background: rgb(218, 99, 99);
+    
+    
+}
+
+.container{
+    position: relative;
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background:rosybrown;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px black;
+    transition: 0.5s;
+}
+
+.container .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: circle(80px at center 0);
+    text-align: center;
+}
+
+.container .card .circle h2{
+    color: white;
+    font-size: 1rem;
+    padding: 30px 0;
+}
+
+.container .card .content{
+    position: absolute;
+    bottom: -10px;
+    padding-bottom: 25px;
+    page-break-after: 20px;
+    text-align: center;
+}
+
+.container .card .content img{
+    width: 310px;
+    height: 280px;
+}
+
+.container .card .content button{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    align-items: center;
+}
+
+.container .card .content button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.title_1{
+    
+    position: absolute;
+    margin-bottom: 600px;
+    font-size: 5rem;
+	color: white;
+	z-index: 0;
+	opacity: 40%;
+    
+}
+
+section #escolha{
+    position: absolute;
+    margin-top: 750px;
+    font-size: 5rem;
+	color: white;
+	z-index: 0;
+	opacity: 40%;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        position: relative;
+        width: 750px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container .card{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background:crimson;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 25px black;
+        transition: 0.5s;
+    }
+    .container .card .content img{
+        width: 90px;
+        height: 90px;
+    }
+}
+
