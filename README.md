@@ -10,3 +10,5 @@
   Este projeto tem como objetivo principal auxiliar principalmente os profissionais da área de RH na parte de admissão dos profissionais. <br>
   Um site que estimula a criatividade dos participantes com a dinâmica de criar uma mini história sobre um personagem fictício.
 </p>
+
+<h4> Treinamento para FrontEnd</h4>
